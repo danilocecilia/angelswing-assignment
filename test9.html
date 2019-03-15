@@ -1,0 +1,38 @@
+<!-- 
+Suppose that you already have following DOM tree.
+
+<html>
+  <head></head>
+  <body>
+    <header class="topbar">
+      <h1 class="topbar__title"></h1>
+      <ul class="topbar-menu">
+        <li class="topbar-menu__item"></li>
+        <li class="topbar-menu__item"></li>
+      </ul>
+    </header>
+    <script>
+      Your code goes here
+      </script>
+      </body>
+    </html>
+    Fill code to add "Home" to the first menu item using JavaScript. (Format for answer: JavaScript)
+     -->
+
+
+   <html>
+   <head></head>
+   <body>
+     <header class="topbar">
+       <h1 class="topbar__title"></h1>
+       <ul class="topbar-menu">
+         <li class="topbar-menu__item"></li>
+         <li class="topbar-menu__item"></li>
+       </ul>
+     </header>
+     <script>
+        var firstItem = document.getElementsByClassName("topbar-menu__item")[0];
+        firstItem.innerText = "Home"
+       </script>
+       </body>
+     </html>
